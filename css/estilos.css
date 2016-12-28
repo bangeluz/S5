@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
+@import url(fonts.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald");
 html {
   font-family: sans-serif;
@@ -5609,11 +5610,21 @@ html {
   font-size: 16px;
   font-family: 'Open Sans', sans-serif; }
 
+body {
+  background: #F0F1F3; }
+
 h1, h2, h3, h4 {
   font-family: "Oswald", sans-serif; }
 
-body {
-  background: #F0F1F3; }
+a {
+  color: white;
+  transition: 0.2s; }
+  a:hover {
+    text-decoration: none;
+    color: #4274E4; }
+
+.title {
+  text-transform: uppercase; }
 
 p {
   color: #777; }
@@ -5699,3 +5710,37 @@ figure .flip-2 {
   width: 100% !important;
   height: 100%;
   border-radius: 50%; }
+
+section#partner {
+  background-color: white; }
+  section#partner .container {
+    margin-top: -1rem;
+    margin-bottom: -1rem;
+    padding: 5rem 0; }
+
+footer {
+  background: #1F2033; }
+  footer .row h3 {
+    font-size: 1.3rem; }
+  footer .row img {
+    max-width: 300px; }
+  footer .row p {
+    color: #bbb;
+    font-size: .9rem;
+    line-height: 16px; }
+  footer .row .social {
+    color: white;
+    font-size: 2.5rem;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    footer .row .social [class^="icon-"] {
+      margin-right: .5rem; }
+
+@media (max-width: 767px) {
+  footer .row h3 {
+    margin-top: 2rem; }
+  footer .row .social {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; } }
