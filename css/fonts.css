@@ -47,3 +47,9 @@
 .icon-linkedin-circled:before {
   content: "\62";
 }
+.icon-insta:before {
+  content: "\64";
+}
+.icon-gplus-circled:before {
+  content: "\65";
+}
